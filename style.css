@@ -1,0 +1,263 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 30px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+}
+nav .logo {
+  display: flex;
+  flex-grow: 1;
+}
+nav .logo img {
+  width: 100px;
+  margin-bottom: 22px;
+}
+
+nav .menu {
+  display: flex;
+  gap: 20px;
+}
+
+nav .but .one {
+  width: 150px;
+  height: 40px;
+  background-color: rgb(14, 99, 14);
+  color: white;
+}
+nav .but .two {
+  width: 50px;
+  height: 40px;
+  color: white;
+  background-color: rgb(20, 100, 20);
+}
+/* end of nav */
+
+/* section1 */
+.first {
+  background: url(./nnpc\ section\ 1\ pic.jpg);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first h3 {
+  font-size: 120px;
+}
+
+.first .line {
+  background-color: yellow;
+  width: 100px;
+  height: 10px;
+}
+
+/* end of first section */
+
+/* second section begins */
+.second {
+  display: flex;
+}
+.second div {
+  width: 50%;
+}
+.second div img {
+  width: 100%;
+}
+.second .text {
+  background-color: rgb(236, 227, 210);
+
+  padding: 50px;
+}
+.second .picture h3,
+h4 {
+  font-size: 40px;
+  margin: 20px 50px;
+}
+.second .picture .emp {
+  color: green;
+}
+.second .text h5 {
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+.second .text p {
+  font-size: 25px;
+  line-height: 40px;
+}
+.batch1 {
+  height: 2.5px;
+  background-color: black;
+}
+.batch2 {
+  height: 1px;
+  background-color: black;
+}
+.third {
+  display: flex;
+}
+.third p {
+  width: 70%;
+  font-size: 35px;
+  margin: 70px;
+}
+.third img {
+  width: 30%;
+}
+.fourth {
+  display: flex;
+}
+.fourth div {
+  width: 70%;
+  margin: 45px;
+}
+.fourth img {
+  width: 30%;
+}
+.fourth div h5 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.fourth div p {
+  font-size: 35px;
+  line-height: 45px;
+}
+.fifth .bus {
+  background-color: rgb(244, 251, 249);
+  font-size: 20px;
+  line-height: 30px;
+  padding: 25px;
+}
+.fifth{
+  margin: 50px;
+}
+.fifth .big {
+  display: flex;
+  div {
+    background-color: rgb(244, 251, 249);
+    margin: 10px;
+    line-height: 30px;
+    padding: 10px;
+  }
+}
+.fifth .big i {
+  font-size: 70px;
+  height: 105px;
+}
+.sixth p {
+  line-height: 30px;
+  font-size: 23px;
+  margin: 30px;
+}
+.seventh {
+  font-size: 26px;
+  margin: 20px;
+}
+.seventh p{
+  margin: 30px 0;
+}
+.eighth{
+  padding: 20px;
+}
+.eighth h5{
+  font-size: 20px;
+margin: 20px;
+}
+.eighth p{
+  margin: 20px;
+  font-size: 20px;
+}
+.eighth button{
+  margin: 20px;
+  padding: 20px;
+  width: 400px;
+  background-color: rgb(34, 89, 34);
+  color: white;
+}
+.ninth{
+  padding: 20px;
+}
+.ninth h5{
+  font-size: 23px;
+margin: 20px;
+}
+.ninth p{
+  margin: 35px 20px 20px 20px;
+  font-size: 20px;
+}
+.ninth button{
+  margin: 70px 20px 20px 20px;
+  padding: 20px;
+  width: 400px;
+  background-color: rgb(34, 89, 34);
+  color: white;
+}
+footer{
+  background-color: rgba(1, 2, 5, 0.893);
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+footer .all{
+  width: 30%;
+  padding: 30px;
+  /* color: white; */
+  p{
+    margin-top: 10px;
+  }
+}
+footer .img{
+ gap: 20px;
+display: flex;
+margin-bottom: 350px;
+
+}
+footer img{
+  height: 50px;
+  width: 80px;
+
+}
+footer .big{
+  width: 68%;
+}
+footer .miss{
+  display: flex;
+  padding: 35px;
+  gap: 70px;
+  margin-left: 100px;
+
+  div{
+  div{
+    display: flex;
+    gap: 90px;
+    margin-bottom: 15px;
+  }
+}
+}
+footer .down{
+  display: flex;
+  gap: 110px;
+  line-height: 40px;
+  border-top: 1px solid;
+  }
+footer .withhr{
+  display: flex;
+}
+footer .list{
+  display: flex;
+  gap: 60px;
+}
+footer .nnpc, .service, .social{
+  padding: 30px;
+}
+footer .big, .service, .social{
+  border-left: 1px solid;
+}
